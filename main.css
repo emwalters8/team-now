@@ -43,3 +43,9 @@ a {
 li.nav-links a:hover {
     text-decoration: underline;
 }
+
+div.content {
+	height: 150px;
+	width: 150px;
+	background-color: red;
+}
