@@ -80,6 +80,9 @@ div.dragdrop1 {
 	display: flex;
 	align-items: center;
 	justify-content: center;
+	img-width: 200px;
+	img-height: 200px;
+	object-fit: cover;
 }
 
 div.dragdrop2 {
@@ -117,4 +120,6 @@ button.cta {
 button:hover {
 	background-color: #228B22;
 }
+
+
 
