@@ -49,3 +49,8 @@ div.content {
 	width: 150px;
 	background-color: red;
 }
+
+div#first{
+	horizontal-align: center;
+}
+
