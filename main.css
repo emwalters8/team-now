@@ -48,9 +48,10 @@ div.content {
 	height: 150px;
 	width: 150px;
 	background-color: red;
+	display: flex;
+	align-items: center;
+	justify-content: center;
 }
 
-div#first{
-	horizontal-align: center;
-}
+
 
