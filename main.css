@@ -51,8 +51,15 @@ div.content {
 	display: flex;
 	align-items: center;
 	justify-content: center;
+	
+}
+
+div#first{
 	padding: 20px 40px 20px 40px;
 }
 
+div#second {
+	padding: 20px 40px 20px 40px;
+}
 
 
