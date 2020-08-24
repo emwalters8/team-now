@@ -80,6 +80,9 @@ div.dragdrop1 {
 	display: flex;
 	align-items: center;
 	justify-content: center;
+}
+
+div.gallery {
 	img-width: 200px;
 	img-height: 200px;
 	object-fit: cover;
