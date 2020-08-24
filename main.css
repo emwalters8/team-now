@@ -48,18 +48,21 @@ div.content {
 	height: 150px;
 	width: 150px;
 	background-color: red;
-	display: flex;
-	align-items: center;
-	justify-content: center;
 	
 }
 
 div#first{
 	padding: 20px 40px 20px 40px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
 }
 
 div#second {
 	padding: 20px 40px 20px 40px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
 }
 
 
