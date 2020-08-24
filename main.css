@@ -95,6 +95,8 @@ div.dragdrop2 {
 	display: flex;
 	align-items: center;
 	justify-content: center;
+	writing-mode: vertical-rl;
+	text-orientation: mixed;
 }
 
 div.dragdrop3 {
@@ -106,6 +108,8 @@ div.dragdrop3 {
 	display: flex;
 	align-items: center;
 	justify-content: center;
+	writing-mode: vertical-rl;
+	text-orientation: mixed;
 }
 
 div.gallery img {
