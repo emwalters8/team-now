@@ -85,12 +85,6 @@ div.dragdrop1 {
 	text-orientation: mixed;
 }
 
-div.gallery img {
-	width: 200px;
-	height: 200px;
-	display: flex;
-	justify-content:flex-start;
-}
 
 div.dragdrop2 {
 	background-color: #8FBC8F;
@@ -112,6 +106,13 @@ div.dragdrop3 {
 	display: flex;
 	align-items: center;
 	justify-content: center;
+}
+
+div.gallery img {
+	width: 200px;
+	height: 200px;
+	display: flex;
+	justify-content:flex-start;
 }
 
 
