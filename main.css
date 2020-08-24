@@ -68,7 +68,7 @@ div.hub1 {
 	justify-content: center;
 }
 
-button {
+button.cta {
 	padding: 9px 25px;
 	background-color: #C8A2C8; 
 	border: none;
@@ -78,5 +78,5 @@ button {
 }
 
 button:hover {
-	background-color: green;
+	background-color: #228B22;
 }
