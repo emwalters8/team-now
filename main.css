@@ -1,8 +1,8 @@
 body {
-	margin: 0;
-	padding: 0;
+	margin: 0px 0px 0px 60px;
+	padding: 0px;
 	font-family: 'Open Sans', sans-serif;
-	font-weight: 600;
+	font-weight: 700;
 }
 
 header {
@@ -47,7 +47,11 @@ li.nav-links a:hover {
 }
 
 div.contentbasic {
-	background-color: #FAFAD2;
+    background-color: #cccc23;
+    border: 20px;
+    border-style: solid;
+    border-color: #FFFFFF;
+    border-radius: 30px;
 	padding: 20px 40px 20px 40px;
 	display: flex;
 	align-items: center;
@@ -83,11 +87,11 @@ div.dragdrop1 {
 	justify-content: center;
 }
 
-div.gallery {
+/* div.gallery {
 	img-width: 200px;
 	img-height: 200px;
 	object-fit: cover;
-}
+} */
 
 div.dragdrop2 {
 	background-color: #8FBC8F;
@@ -124,6 +128,3 @@ button.cta {
 button:hover {
 	background-color: #228B22;
 }
-
-
-
