@@ -74,6 +74,9 @@ div.hub1 {
 div.dragdrop1 {
 	background-color: #8FBC8F;
 	padding: 20px 40px 20px 40px;
+	border: 20px;
+	border-style: solid;
+	border-color: #FFFFFF;
 	display: flex;
 	align-items: center;
 	justify-content: center;
@@ -82,6 +85,9 @@ div.dragdrop1 {
 div.dragdrop2 {
 	background-color: #8FBC8F;
 	padding: 20px 40px 20px 40px;
+	border: 20px;
+	border-style: solid;
+	border-color: #FFFFFF;
 	display: flex;
 	align-items: center;
 	justify-content: center;
@@ -90,6 +96,9 @@ div.dragdrop2 {
 div.dragdrop3 {
 	background-color: #8FBC8F;
 	padding: 20px 40px 20px 40px;
+	border: 20px;
+	border-style: solid;
+	border-color: #FFFFFF;
 	display: flex;
 	align-items: center;
 	justify-content: center;
