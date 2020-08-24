@@ -52,6 +52,7 @@ div.contentbasic {
 	display: flex;
 	align-items: center;
 	justify-content: center;
+	width: 100%;
 }
 
 div.contentsocial {
@@ -59,6 +60,7 @@ div.contentsocial {
 	display: flex;
 	align-items: center;
 	justify-content: center;
+	width: 100%;
 }
 
 div.hub1 {
