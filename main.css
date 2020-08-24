@@ -18,6 +18,7 @@ ul {
     float: left;
     margin-left: 40px;
     vertical-align: top;
+	background-color: white;
 }
 
 #nav_bar li {
