@@ -81,6 +81,7 @@ div.dragdrop1 {
 	display: flex;
 	align-items: center;
 	justify-content: center;
+	text-orientation: sideways;
 }
 
 div.gallery img {
