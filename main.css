@@ -81,14 +81,15 @@ div.dragdrop1 {
 	display: flex;
 	align-items: center;
 	justify-content: center;
-	text-orientation: sideways;
+	writing-mode: vertical-rl;
+	text-orientation: mixed;
 }
 
 div.gallery img {
 	width: 200px;
 	height: 200px;
 	display: flex;
-	float: center;
+	justify-content:flex-start;
 }
 
 div.dragdrop2 {
