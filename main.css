@@ -44,21 +44,17 @@ li.nav-links a:hover {
     text-decoration: underline;
 }
 
-div.content {
+div.contentbasic {
 	height: 150px;
 	width: 150px;
 	background-color: red;
-	
-}
-
-div#first{
 	padding: 20px 40px 20px 40px;
 	display: flex;
 	align-items: center;
 	justify-content: center;
 }
 
-div#second {
+div.contentsocial {
 	padding: 20px 40px 20px 40px;
 	display: flex;
 	align-items: center;
