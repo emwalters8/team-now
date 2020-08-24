@@ -68,6 +68,31 @@ div.hub1 {
 	justify-content: center;
 }
 
+div.dragdrop1 {
+	background-color: #8FBC8F;
+	padding: 20px 40px 20px 40px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+div.dragdrop2 {
+	background-color: #8FBC8F;
+	padding: 20px 40px 20px 40px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+div.dragdrop3 {
+	background-color: #8FBC8F;
+	padding: 20px 40px 20px 40px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+
 button.cta {
 	padding: 9px 25px;
 	background-color: #C8A2C8; 
@@ -80,3 +105,4 @@ button.cta {
 button:hover {
 	background-color: #228B22;
 }
+
