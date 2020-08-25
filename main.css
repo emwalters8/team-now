@@ -1,3 +1,7 @@
+:root {
+	--main-bg-color: #80a980;
+}
+
 body {
 	margin: 0px 150px 0px 150px;
 	padding: 0;
@@ -151,7 +155,7 @@ div.summerpasta {
 	border-color: #FFB6C1;	
 }
 div.hub1 {
-	background-color: #8FBC8F;
+	background-color: var(--main-bg-color);
 	padding: 20px 40px 20px 40px;
 	border: 20px;
 	border-style: solid;
@@ -164,7 +168,7 @@ div.hub1 {
 }
 
 div.dragdrop1 {
-	background-color: #8FBC8F;
+	background-color: var(--main-bg-color);
 /* 	width: 100%; */
 	padding: 20px 40px 20px 40px;
 	border: 20px;
@@ -179,7 +183,7 @@ div.dragdrop1 {
 
 
 div.dragdrop2 {
-	background-color: #8FBC8F;
+	background-color: var(--main-bg-color);
 /* 	width: 100%; */
 	padding: 20px 40px 20px 40px;
 	border: 20px;
@@ -193,7 +197,7 @@ div.dragdrop2 {
 }
 
 div.dragdrop3 {
-	background-color: #8FBC8F;
+	background-color: var(--main-bg-color);
 /* 	width: 100%; */
 	padding: 20px 40px 20px 40px;
 	border: 20px;
@@ -246,7 +250,6 @@ footer {
 	padding-bottom: 0;
 	width: 100%;
 	border-top: solid 2px lightgrey;
-	margin-top: 40px;
 }
 
 footer ul li {
@@ -268,4 +271,3 @@ footer ul a:hover {
 .footer-right {
 	float: right;
 }	
-
