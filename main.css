@@ -73,6 +73,7 @@ div.hub1 {
 	border-style: solid;
 	border-color: #FFFFFF;
 	display: flex;
+	flex-flow: row wrap;
 	justify-content: center;
 	width: 100%;
 }
@@ -100,6 +101,7 @@ div.dragdrop2 {
 	border-style: solid;
 	border-color: #FFFFFF;
 	display: flex;
+	flex-flow: row wrap;
 	align-items: center;
 	justify-content: center;
 	writing-mode: vertical-rl;
@@ -114,6 +116,7 @@ div.dragdrop3 {
 	border-style: solid;
 	border-color: #FFFFFF;
 	display: flex;
+	flex-flow: row wrap;
 	align-items: center;
 	justify-content: center;
 	writing-mode: vertical-rl;
@@ -129,6 +132,7 @@ div.gallery img {
 	border: 5px;
 	border-style: solid;
 	border-color: #B8B8B8;
+	flex-flow: row wrap;
 	
 }
 
