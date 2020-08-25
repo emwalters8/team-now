@@ -84,7 +84,6 @@ div.dragdrop1 {
 	border-style: solid;
 	border-color: #FFFFFF;
 	display: flex;
-	align-items: center;
 	justify-content: flex-start;
 	writing-mode: vertical-rl;
 	text-orientation: mixed;
@@ -141,5 +140,11 @@ button:hover {
 	background-color: #228B22;
 }
 
+div.ingredients{
+	writing-mode: vertical-lr;
+	text-orientation: horizontal-tb; 
+}
+	
+	
 
 
