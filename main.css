@@ -234,7 +234,7 @@ div.gallery img{
 	padding: 20px 40px 20px 40px;
 	border: 5px solid #ffffb8;
 	margin: 5px;
-	transition: width 1s, height 1s;
+	transition: width 1s, height 1s ease-in-out;
 }
 
 div.gallery img:hover {
@@ -307,7 +307,6 @@ div.desc {
 	display: flex;
 	background-color: #C7DDC7;
 	margin: 20px;
-	max-height: 400px;
 }
 
 .container>* {
