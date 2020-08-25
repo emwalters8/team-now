@@ -140,8 +140,6 @@ div.dragdrop1 {
 	display: flex;
 	justify-content: center;
 	align-items: center;
-	writing-mode: vertical-rl;
-	text-orientation: mixed;
 }
 
 
@@ -156,8 +154,6 @@ div.dragdrop2 {
 	flex-flow: row wrap;
 	align-items: center;
 	justify-content: center;
-	writing-mode: vertical-rl;
-	text-orientation: mixed;
 }
 
 div.dragdrop3 {
@@ -171,11 +167,9 @@ div.dragdrop3 {
 	flex-flow: row wrap;
 	align-items: center;
 	justify-content: center;
-	writing-mode: vertical-rl;
-	text-orientation: mixed;
 }
 
-div.gallery img {
+div.gallery {
 	display: flex;
 	justify-content:flex-start;
 	flex: 1;
@@ -185,6 +179,8 @@ div.gallery img {
 	border: 5px;
 	border-style: solid;
 	border-color: #B8B8B8;
+	writing-mode: vertical-rl;
+	text-orientation: mixed;
 	
 }
 
