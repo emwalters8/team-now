@@ -1,12 +1,16 @@
 body {
-	margin: 0;
+	margin: 0px 150px;
 	padding: 0;
 	font-family: 'Open Sans', sans-serif;
-	font-weight: 600;
+	font-weight: 700;
+	font-size: 25px;
 }
 
 header {
 	width: 100%;
+	margin: 0px;
+    padding: 0px;
+    border: 0px;
 }
 
 
@@ -14,12 +18,16 @@ ul {
 	list-style: none;
 }
 
+/* NAV BAR */
 #nav_bar {
     width: 100%;
     float: center;
     margin-left: 40px;
-    vertical-align: top;
-	background-color: #FFFFFF;
+	vertical-align: top;
+	padding: 20px 40px 20px 40px;
+
+	background-color: #e0e0e0;
+	margin: 0px;
 }
 
 #nav_bar li {
@@ -42,24 +50,68 @@ a {
     color: inherit;
 }
 
+li.nav-home a:hover {
+    text-decoration: underline;
+}
 li.nav-links a:hover {
     text-decoration: underline;
 }
 
+
+.search {
+    width: 100%;
+    position: relative;
+    display: flex;
+  }
+  
+  .searchTerm {
+    width: 100%;
+    border: 3px solid #00B4CC;
+    border-right: none;
+    padding: 5px;
+    height: 20px;
+    border-radius: 5px 0 0 5px;
+    outline: none;
+    color: #9DBFAF;
+  }
+  
+  .searchTerm:focus{
+    color: #00B4CC;
+  }
+  
+  .searchButton {
+    width: 40px;
+    height: 36px;
+    border: 1px solid #00B4CC;
+    background: #00B4CC;
+    text-align: center;
+    color: #fff;
+    border-radius: 0 5px 5px 0;
+    cursor: pointer;
+    font-size: 20px;
+  }
+  
+
+/* DIVS */
+
 div.contentbasic {
-	background-color: #FAFAD2;
+	background-color: #e0e07d;
+	border: 20px;
+    border-style: solid;
+    border-color: #FFFFFF;
+    border-radius: 30px;
 	padding: 20px 40px 20px 40px;
 	display: flex;
 	align-items: center;
 	justify-content: center;
-	border: 20px;
-	border-style: solid;
-	border-color: #FFFFFF;
 	width: 100%;
 }
 
 div.contentsocial {
 	padding: 20px 40px 20px 40px;
+	border: 20px;
+    border-style: solid;
+    border-color: #FFFFFF;
 	display: flex;
 	align-items: center;
 	justify-content: center;
@@ -155,6 +207,35 @@ div.ingredients {
 	text-orientation: horizontal-tb; 
 }
 	
-	
+/* FOOTER */
+
+footer {
+	background: #f2f2f2;
+	/*   position: fixed; */
+	bottom: 0;
+	padding-bottom: 0;
+	width: 100%;
+	border-top: solid 2px lightgrey;
+}
+
+footer ul li {
+	display: inline;
+	color: #666666;
+	font-size: 14px;
+	padding: 13px;
+}
+
+footer ul {
+	float: left;
+	padding: 1px;
+}
+
+footer ul a:hover {
+	text-decoration: underline;
+}
+
+.footer-right {
+	float: right;
+}	
 
 
