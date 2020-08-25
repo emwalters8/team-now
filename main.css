@@ -127,12 +127,12 @@ div.hub1 {
 	display: flex;
 	flex-flow: row wrap;
 	justify-content: center;
-	width: 100%;
+/* 	width: 100%; */
 }
 
 div.dragdrop1 {
 	background-color: #8FBC8F;
-	width: 100%;
+/* 	width: 100%; */
 	padding: 20px 40px 20px 40px;
 	border: 20px;
 	border-style: solid;
@@ -147,7 +147,7 @@ div.dragdrop1 {
 
 div.dragdrop2 {
 	background-color: #8FBC8F;
-	width: 100%;
+/* 	width: 100%; */
 	padding: 20px 40px 20px 40px;
 	border: 20px;
 	border-style: solid;
@@ -162,7 +162,7 @@ div.dragdrop2 {
 
 div.dragdrop3 {
 	background-color: #8FBC8F;
-	width: 100%;
+/* 	width: 100%; */
 	padding: 20px 40px 20px 40px;
 	border: 20px;
 	border-style: solid;
