@@ -1,5 +1,5 @@
 body {
-	margin: 0px 150px;
+	margin: 0px 150px 0px 150px;
 	padding: 0;
 	font-family: 'Open Sans', sans-serif;
 	font-weight: 700;
@@ -7,7 +7,6 @@ body {
 }
 
 header {
-	width: 100%;
 	margin: 0px;
     padding: 0px;
     border: 0px;
@@ -16,18 +15,18 @@ header {
 
 ul {
 	list-style: none;
+	padding-inline-start: 0px;
 }
 
 /* NAV BAR */
 #nav_bar {
-/*     width: 100%; */
-    float: center;
-    margin-left: 40px;
-	vertical-align: top;
+    /* width: 100%; */
+    /* margin-left: 40px; */
 	padding: 20px 40px 20px 40px;
-
+	vertical-align: top;
 	background-color: #e0e0e0;
 	margin: 0px;
+	border-radius: 0 0 30px 30px;
 }
 
 #nav_bar li {
@@ -40,9 +39,9 @@ ul {
 }
 
 .nav-home {
-    color: blue;
+    color: slategray;
     font-size: 200%;
-    margin-right: 50px;
+    margin-right: 40px;
 }
 
 a {
@@ -58,40 +57,6 @@ li.nav-links a:hover {
 }
 
 
-.search {
-    width: 100%;
-    position: relative;
-    display: flex;
-  }
-  
-  .searchTerm {
-    width: 100%;
-    border: 3px solid #00B4CC;
-    border-right: none;
-    padding: 5px;
-    height: 20px;
-    border-radius: 5px 0 0 5px;
-    outline: none;
-    color: #9DBFAF;
-  }
-  
-  .searchTerm:focus{
-    color: #00B4CC;
-  }
-  
-  .searchButton {
-    width: 40px;
-    height: 36px;
-    border: 1px solid #00B4CC;
-    background: #00B4CC;
-    text-align: center;
-    color: #fff;
-    border-radius: 0 5px 5px 0;
-    cursor: pointer;
-    font-size: 20px;
-  }
-  
-
 /* DIVS */
 
 div.contentbasic {
@@ -104,7 +69,7 @@ div.contentbasic {
 	display: flex;
 	align-items: center;
 	justify-content: center;
-/* 	width: 100%; */
+	/* width: 100%; */
 }
 
 div.contentsocial {
@@ -115,7 +80,7 @@ div.contentsocial {
 	display: flex;
 	align-items: center;
 	justify-content: center;
-	width: 100%;
+	/* width: 100%; */
 }
 
 div.hub1 {
@@ -180,8 +145,7 @@ div.gallery {
 	border-style: solid;
 	border-color: #B8B8B8;
 	writing-mode: vertical-rl;
-	text-orientation: mixed;
-	
+	text-orientation: mixed;	
 }
 
 
@@ -233,5 +197,4 @@ footer ul a:hover {
 .footer-right {
 	float: right;
 }	
-
 
