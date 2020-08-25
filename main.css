@@ -269,3 +269,9 @@ footer ul a:hover {
 .footer-right {
 	float: right;
 }	
+
+div.desc {
+	padding: 12px;
+	text-align: center;
+	font-size: 20px;
+}
