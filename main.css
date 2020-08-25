@@ -184,7 +184,7 @@ div.dragdrop1 {
 
 div.dragdrop2 {
 	background-color: var(--main-bg-color);
-/* 	width: 100%; */
+	width: 100%;
 	padding: 20px 40px 20px 40px;
 	border: 20px;
 	border-style: solid;
