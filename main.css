@@ -20,7 +20,7 @@ ul {
 
 /* NAV BAR */
 #nav_bar {
-    width: 100%;
+/*     width: 100%; */
     float: center;
     margin-left: 40px;
 	vertical-align: top;
