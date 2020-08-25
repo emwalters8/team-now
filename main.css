@@ -83,18 +83,38 @@ div.contentsocial {
 	/* width: 100%; */
 }
 
-div.gallery2 {
+div.saladbowl {
 	display: flex;
 	justify-content:flex-start;
 	flex: 1;
 	height: 200px;
 	width: 200px;
-	padding: 20px 40px 20px 40px;
 	border: 5px;
 	border-style: solid;
 	border-color: #FFB6C1;	
 }
 
+div.tofubowl {
+	display: flex;
+	justify-content:flex-start;
+	flex: 1;
+	height: 200px;
+	width: 200px;
+	border: 5px;
+	border-style: solid;
+	border-color: #FFB6C1;	
+}
+
+div.summerpasta {
+	display: flex;
+	justify-content:flex-start;
+	flex: 1;
+	height: 200px;
+	width: 200px;
+	border: 5px;
+	border-style: solid;
+	border-color: #FFB6C1;	
+}
 div.hub1 {
 	background-color: #8FBC8F;
 	padding: 20px 40px 20px 40px;
