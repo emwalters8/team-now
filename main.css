@@ -52,6 +52,9 @@ div.contentbasic {
 	display: flex;
 	align-items: center;
 	justify-content: center;
+	border: 20px;
+	border-style: solid;
+	border-color: #FFFFFF;
 	width: 100%;
 }
 
