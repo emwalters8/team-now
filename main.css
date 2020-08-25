@@ -84,9 +84,6 @@ div.contentsocial {
 }
 
 div.saladbowl {
-	display: flex;
-	justify-content:flex-start;
-	flex: 1;
 	height: 200px;
 	width: 200px;
 	border: 5px;
@@ -95,9 +92,6 @@ div.saladbowl {
 }
 
 div.tofubowl {
-	display: flex;
-	justify-content:flex-start;
-	flex: 1;
 	height: 200px;
 	width: 200px;
 	border: 5px;
@@ -106,9 +100,6 @@ div.tofubowl {
 }
 
 div.summerpasta {
-	display: flex;
-	justify-content:flex-start;
-	flex: 1;
 	height: 200px;
 	width: 200px;
 	border: 5px;
