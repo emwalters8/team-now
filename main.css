@@ -83,6 +83,18 @@ div.contentsocial {
 	/* width: 100%; */
 }
 
+div.gallery2 {
+	display: flex;
+	justify-content:flex-start;
+	flex: 1;
+	height: 200px;
+	width: 200px;
+	padding: 20px 40px 20px 40px;
+	border: 5px;
+	border-style: solid;
+	border-color: #FFB6C1;	
+}
+
 div.hub1 {
 	background-color: #8FBC8F;
 	padding: 20px 40px 20px 40px;
@@ -92,7 +104,6 @@ div.hub1 {
 	display: flex;
 	flex-flow: row wrap;
 	justify-content: center;
-	border-radius: 30px;
 /* 	width: 100%; */
 }
 
@@ -106,7 +117,6 @@ div.dragdrop1 {
 	display: flex;
 	justify-content: center;
 	align-items: center;
-	border-radius: 30px;
 }
 
 
@@ -121,7 +131,6 @@ div.dragdrop2 {
 	flex-flow: row wrap;
 	align-items: center;
 	justify-content: center;
-	border-radius: 30px;
 }
 
 div.dragdrop3 {
@@ -135,7 +144,6 @@ div.dragdrop3 {
 	flex-flow: row wrap;
 	align-items: center;
 	justify-content: center;
-	border-radius: 30px;
 }
 
 div.gallery {
@@ -147,9 +155,7 @@ div.gallery {
 	padding: 20px 40px 20px 40px;
 	border: 5px;
 	border-style: solid;
-	border-color: #B8B8B8;
-	writing-mode: vertical-rl;
-	text-orientation: mixed;	
+	border-color: #B8B8B8;	
 }
 
 
